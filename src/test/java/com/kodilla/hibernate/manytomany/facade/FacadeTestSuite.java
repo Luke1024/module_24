@@ -2,16 +2,13 @@ package com.kodilla.hibernate.manytomany.facade;
 
 import com.kodilla.hibernate.manytomany.Company;
 import com.kodilla.hibernate.manytomany.Employee;
+import com.kodilla.hibernate.manytomany.dao.EmployeeDao;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
 import javax.transaction.Transactional;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.stream.Collectors;
 
 import static java.util.Arrays.asList;
@@ -25,6 +22,9 @@ public class FacadeTestSuite {
     @Autowired
     private Facade facade;
 
+    @Autowired
+    EmployeeDao employeeDao;
+
     @Test
     public void testFindEmployeesWithPartOfTheName() {
         //Given
@@ -32,10 +32,20 @@ public class FacadeTestSuite {
         Employee stephanieClarckson = new Employee(2, "Stephanie", "Clarckson");
         Employee lindaKovalsky = new Employee(3, "Linda", "Kovalsky");
 
-        facade.execute(asList(johnSmith, stephanieClarckson, lindaKovalsky), Command.ADD);
+        try {
+            facade.execute(asList(johnSmith, stephanieClarckson, lindaKovalsky), Command.ADD);
+        } catch (Exception e){
+            System.out.println(e);
+        }
 
         //When
-        ResponseDTO responseDTO = facade.execute(asList("Smith", "Clarckson", "Kovalsky"), Command.FIND_EMPLOYEE);
+        ResponseDTO responseDTO = new ResponseDTO();
+
+        try {
+            responseDTO = facade.execute(asList("mith", "arcks", "valsky"), Command.FIND_EMPLOYEE);
+        } catch (Exception e){
+            System.out.println(e);
+        }
 
         //Then
         assertTrue(employeeIsInDatabase(responseDTO.getResponses().get(0), johnSmith));
@@ -44,7 +54,11 @@ public class FacadeTestSuite {
 
         //CleanUp
 
-        facade.execute(asList(johnSmith, stephanieClarckson, lindaKovalsky), Command.DELETE);
+        try {
+            facade.execute(asList(johnSmith, stephanieClarckson, lindaKovalsky), Command.DELETE);
+        } catch (Exception e){
+            System.out.println(e);
+        }
     }
 
     private boolean employeeIsInDatabase(Response response, Employee employee) {
@@ -58,9 +72,20 @@ public class FacadeTestSuite {
         Company dataMaesters = new Company(2,"Data Maesters");
         Company greyMatter = new Company(3,"Grey Matter");
 
-        facade.execute(asList(softwareMachine, dataMaesters, greyMatter), Command.ADD);
+        try {
+            facade.execute(asList(softwareMachine, dataMaesters, greyMatter), Command.ADD);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+
         //When
-        ResponseDTO responseDTO = facade.execute(asList("Software Machine", "Data Maesters", "Grey Matter"), Command.FIND_COMPANY);
+        ResponseDTO responseDTO = new ResponseDTO();
+
+        try {
+            responseDTO = facade.execute(asList("Mach", "esters", "Gre"), Command.FIND_COMPANY);
+        } catch (Exception e){
+            System.out.println(e);
+        }
 
         //Then
         assertTrue(companyIsInDatabase(responseDTO.getResponses().get(0), softwareMachine));
@@ -68,7 +93,12 @@ public class FacadeTestSuite {
         assertTrue(companyIsInDatabase(responseDTO.getResponses().get(2), greyMatter));
 
         //CleanUp
-        facade.execute(asList(softwareMachine, dataMaesters, greyMatter), Command.DELETE);
+
+        try {
+            facade.execute(asList(softwareMachine, dataMaesters, greyMatter), Command.DELETE);
+        } catch (Exception e){
+            System.out.println(e);
+        }
     }
 
     private boolean companyIsInDatabase(Response response, Company company){

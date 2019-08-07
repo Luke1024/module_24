@@ -14,7 +14,7 @@ import java.util.List;
 public interface CompanyDao extends CrudRepository<Company, Integer> {
 
     @Query
-    List<Company> findACompanyWithTheBeginningOfTheName(@Param(("COMPANY_NAME")) String company_name);
+    List<Company> findCompanyByName(@Param("COMPANY_NAME") String company_name);
 
     Company save(Company company);
 }

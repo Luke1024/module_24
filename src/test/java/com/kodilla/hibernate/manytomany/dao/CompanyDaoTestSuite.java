@@ -2,7 +2,6 @@ package com.kodilla.hibernate.manytomany.dao;
 
 import com.kodilla.hibernate.manytomany.Company;
 import com.kodilla.hibernate.manytomany.Employee;
-import com.kodilla.hibernate.task.Task;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -37,11 +36,11 @@ public class CompanyDaoTestSuite {
         greyMatter.getEmployees().add(johnSmith);
         greyMatter.getEmployees().add(lindaKovalsky);
 
-        johnSmith.getCompanies().add(softwareMachine);
-        johnSmith.getCompanies().add(greyMatter);
-        stephanieClarckson.getCompanies().add(dataMaesters);
-        lindaKovalsky.getCompanies().add(dataMaesters);
-        lindaKovalsky.getCompanies().add(greyMatter);
+        johnSmith.getCompaniesList().add(softwareMachine);
+        johnSmith.getCompaniesList().add(greyMatter);
+        stephanieClarckson.getCompaniesList().add(dataMaesters);
+        lindaKovalsky.getCompaniesList().add(dataMaesters);
+        lindaKovalsky.getCompaniesList().add(greyMatter);
 
         //When
         companyDao.save(softwareMachine);
@@ -114,9 +113,9 @@ public class CompanyDaoTestSuite {
         int greyMatterId = greyMatter.getId();
 
         //When
-        List<Company> sofSearch = companyDao.findACompanyWithTheBeginningOfTheName("Sof" + "%");
-        List<Company> datSearch = companyDao.findACompanyWithTheBeginningOfTheName("Dat" + "%");
-        List<Company> greSearch = companyDao.findACompanyWithTheBeginningOfTheName("Gre" + "%");
+        List<Company> sofSearch = companyDao.findCompanyByName("Sof" + "%");
+        List<Company> datSearch = companyDao.findCompanyByName("Dat" + "%");
+        List<Company> greSearch = companyDao.findCompanyByName("Gre" + "%");
 
         //Then
         try {

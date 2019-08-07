@@ -8,7 +8,7 @@ import java.util.Objects;
 
 @NamedNativeQuery(
         name = "Employee.findEmployeesByLastname",
-        query = "SELECT * FROM employees WHERE lastname =:LASTNAME",
+        query = "SELECT * FROM employees WHERE lastname LIKE :LASTNAME",
         resultClass = Employee.class
 )
 
@@ -18,7 +18,7 @@ public class Employee {
     private int id;
     private String firstname;
     private String lastname;
-    private List<Company> companies = new ArrayList<>();
+    private List<Company> companiesList = new ArrayList<>();
 
     public Employee() {
     }
@@ -55,12 +55,12 @@ public class Employee {
             inverseJoinColumns = {@JoinColumn(name = "COMPANY_ID", referencedColumnName = "COMPANY_ID")}
     )
 
-    public List<Company> getCompanies() {
-        return companies;
+    public List<Company> getCompaniesList() {
+        return companiesList;
     }
 
-    public void setCompanies(List<Company> companies) {
-        this.companies = companies;
+    public void setCompaniesList(List<Company> companiesList) {
+        this.companiesList = companiesList;
     }
 
     private void setId(int id) {
@@ -87,6 +87,6 @@ public class Employee {
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, firstname, lastname, companies);
+        return Objects.hash(id, firstname, lastname, companiesList);
     }
 }

@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.Objects;
 
 @NamedNativeQuery(
-        name = "Company.findACompanyWithTheBeginningOfTheName",
+        name = "Company.findCompanyByName",
         query = "SELECT * FROM companies WHERE company_name LIKE :COMPANY_NAME",
         resultClass = Company.class
 )
@@ -40,7 +40,7 @@ public class Company {
         return name;
     }
 
-    @ManyToMany(cascade = CascadeType.ALL, mappedBy = "companies")
+    @ManyToMany(cascade = CascadeType.ALL, mappedBy = "companiesList")
     public List<Employee> getEmployees() {
         return employees;
     }
