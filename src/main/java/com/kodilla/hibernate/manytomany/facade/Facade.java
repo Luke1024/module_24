@@ -125,14 +125,10 @@ public class Facade {
     }
 
     private List<Employee> findEmployees(String string) {
-        return employeeDao.findEmployeesByLastname(wrapWithPercentSign(string));
+        return employeeDao.findEmployeesByLastname(string);
     }
 
     private List<Company> findCompanies(String string){
-        return companyDao.findCompanyByName(wrapWithPercentSign(string));
-    }
-
-    private String wrapWithPercentSign(String string){
-        return "%" + string + "%";
+        return companyDao.findCompanyByName(string);
     }
 }

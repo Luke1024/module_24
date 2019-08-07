@@ -3,20 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6663ed54-36b1-42ec-a468-14b73adc5e41" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kodilla/hibernate/manytomany/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kodilla/hibernate/manytomany/Company.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/kodilla/hibernate/manytomany/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kodilla/hibernate/manytomany/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kodilla/hibernate/manytomany/dao/CompanyDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kodilla/hibernate/manytomany/dao/CompanyDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/kodilla/hibernate/manytomany/facade/DatabaseProcessingException.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/classes/com/kodilla/hibernate/manytomany/facade/Facade.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/kodilla/hibernate/manytomany/facade/Facade.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/kodilla/hibernate/manytomany/facade/FacadeTestSuite.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/kodilla/hibernate/manytomany/facade/FacadeTestSuite.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/DatabaseProcessingException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/DatabaseProcessingException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Facade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/kodilla/hibernate/manytomany/facade/FacadeTestSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/kodilla/hibernate/manytomany/facade/FacadeTestSuite.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -33,14 +24,14 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4831354">
+    <splitter split-orientation="horizontal" split-proportion="0.59669584">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/Company.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="806">
-                  <caret line="56" column="25" selection-start-line="56" selection-start-column="25" selection-end-line="56" selection-end-column="25" />
+                <state relative-caret-position="138">
+                  <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#732#733#0" expanded="true" />
@@ -62,19 +53,33 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Facade.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="508">
-                  <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+                <state relative-caret-position="915">
+                  <caret line="61" column="64" lean-forward="true" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#3617#3618#0" expanded="true" />
                     <element signature="e#3659#3660#0" expanded="true" />
                     <element signature="e#3918#3919#0" expanded="true" />
                     <element signature="e#3958#3959#0" expanded="true" />
-                    <element signature="e#4502#4503#0" expanded="true" />
-                    <element signature="e#4543#4544#0" expanded="true" />
+                    <element signature="e#4537#4538#0" expanded="true" />
+                    <element signature="e#4603#4604#0" expanded="true" />
+                    <element signature="e#4681#4682#0" expanded="true" />
+                    <element signature="e#4740#4741#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="270">
+                  <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -134,8 +139,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="17" selection-start-line="17" selection-end-line="17" />
+                <state relative-caret-position="300">
+                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -146,8 +151,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="630">
-                  <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="91" lean-forward="true" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#836#837#0" expanded="true" />
@@ -194,8 +199,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/hibernate/manytomany/facade/FacadeTestSuite.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+                <state relative-caret-position="224">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -207,7 +212,7 @@
             <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/DatabaseProcessingException.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="150">
-                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                  <caret line="10" selection-start-line="10" selection-end-line="10" />
                   <folding>
                     <element signature="e#170#171#0" expanded="true" />
                     <element signature="e#200#201#0" expanded="true" />
@@ -237,21 +242,20 @@
         <option value="$PROJECT_DIR$/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/ResponseDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Response.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/DatabaseProcessingException.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/kodilla/hibernate/manytomany/facade/FacadeTestSuite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Facade.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/Company.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/DatabaseProcessingException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Facade.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/kodilla/hibernate/manytomany/facade/FacadeTestSuite.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1077" />
-    <option name="y" value="99" />
-    <option name="width" value="1157" />
-    <option name="height" value="1381" />
+    <option name="y" value="29" />
+    <option name="width" value="1461" />
+    <option name="height" value="1392" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -469,7 +473,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565175758468" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565184384827" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -512,22 +516,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompanyDaoTestSuite.testSaveManyToMany" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="com.kodilla.Module_24_test.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.dao.CompanyDaoTestSuite" />
-      <option name="METHOD_NAME" value="testSaveManyToMany" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FacadeTestSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.kodilla.Module_24_test.test" />
       <extension name="coverage">
@@ -539,6 +527,22 @@
       <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.facade" />
       <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.facade.FacadeTestSuite" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FacadeTestSuite.testFindCompaniesWithPartOfTheName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.kodilla.Module_24_test.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kodilla.hibernate.manytomany.facade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kodilla.hibernate.manytomany.facade" />
+      <option name="MAIN_CLASS_NAME" value="com.kodilla.hibernate.manytomany.facade.FacadeTestSuite" />
+      <option name="METHOD_NAME" value="testFindCompaniesWithPartOfTheName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -585,10 +589,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.FacadeTestSuite" />
-        <item itemvalue="JUnit.FacadeTestSuite.testThrowException" />
         <item itemvalue="JUnit.FacadeTestSuite.testFindEmployeesWithPartOfTheName" />
+        <item itemvalue="JUnit.FacadeTestSuite.testFindCompaniesWithPartOfTheName" />
+        <item itemvalue="JUnit.FacadeTestSuite.testThrowException" />
         <item itemvalue="JUnit.CompanyDaoTestSuite.testFindEmployeesByLastname" />
-        <item itemvalue="JUnit.CompanyDaoTestSuite.testSaveManyToMany" />
       </list>
     </recent_temporary>
   </component>
@@ -615,50 +619,50 @@
       <workItem from="1565019841116" duration="6458000" />
       <workItem from="1565075072011" duration="19190000" />
       <workItem from="1565099681666" duration="108000" />
-      <workItem from="1565163805803" duration="11788000" />
+      <workItem from="1565163805803" duration="16124000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CompanyDaoTestSuite_testFindEmployeesByLastname - 2019.08.07 at 12h 06m 36s.xml">
-      <configuration name="CompanyDaoTestSuite.testFindEmployeesByLastname" configurationId="JUnit" />
+    <history-entry file="FacadeTestSuite - 2019.08.07 at 14h 51m 54s.xml">
+      <configuration name="FacadeTestSuite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FacadeTestSuite_testFindEmployeesWithPartOfTheName - 2019.08.07 at 12h 07m 50s.xml">
+    <history-entry file="FacadeTestSuite - 2019.08.07 at 14h 52m 56s.xml">
+      <configuration name="FacadeTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FacadeTestSuite_testFindEmployeesWithPartOfTheName - 2019.08.07 at 14h 53m 59s.xml">
       <configuration name="FacadeTestSuite.testFindEmployeesWithPartOfTheName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FacadeTestSuite_testFindEmployeesWithPartOfTheName - 2019.08.07 at 12h 12m 09s.xml">
+    <history-entry file="FacadeTestSuite_testFindCompaniesWithPartOfTheName - 2019.08.07 at 14h 54m 12s.xml">
+      <configuration name="FacadeTestSuite.testFindCompaniesWithPartOfTheName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FacadeTestSuite_testFindCompaniesWithPartOfTheName - 2019.08.07 at 14h 54m 53s.xml">
+      <configuration name="FacadeTestSuite.testFindCompaniesWithPartOfTheName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FacadeTestSuite - 2019.08.07 at 14h 55m 03s.xml">
+      <configuration name="FacadeTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FacadeTestSuite - 2019.08.07 at 14h 57m 03s.xml">
+      <configuration name="FacadeTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FacadeTestSuite - 2019.08.07 at 15h 00m 09s.xml">
+      <configuration name="FacadeTestSuite" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FacadeTestSuite_testFindEmployeesWithPartOfTheName - 2019.08.07 at 15h 15m 20s.xml">
       <configuration name="FacadeTestSuite.testFindEmployeesWithPartOfTheName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="FacadeTestSuite_testThrowException - 2019.08.07 at 12h 12m 22s.xml">
-      <configuration name="FacadeTestSuite.testThrowException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FacadeTestSuite_testThrowException - 2019.08.07 at 12h 13m 43s.xml">
-      <configuration name="FacadeTestSuite.testThrowException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FacadeTestSuite_testThrowException - 2019.08.07 at 12h 14m 16s.xml">
-      <configuration name="FacadeTestSuite.testThrowException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FacadeTestSuite_testThrowException - 2019.08.07 at 12h 34m 31s.xml">
-      <configuration name="FacadeTestSuite.testThrowException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FacadeTestSuite_testThrowException - 2019.08.07 at 12h 35m 02s.xml">
-      <configuration name="FacadeTestSuite.testThrowException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FacadeTestSuite_testThrowException - 2019.08.07 at 12h 35m 37s.xml">
-      <configuration name="FacadeTestSuite.testThrowException" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FacadeTestSuite - 2019.08.07 at 12h 48m 22s.xml">
+    <history-entry file="FacadeTestSuite - 2019.08.07 at 15h 26m 31s.xml">
       <configuration name="FacadeTestSuite" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51667000" />
+    <option name="totallyTimeSpent" value="56003000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="2560" height="1415" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17709148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26505083" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -667,13 +671,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.096725054" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46001524" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49946696" weight="0.32925683" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.16603199" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" weight="0.12033511" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32925683" />
       <window_info anchor="bottom" id="SonarLint" order="11" />
@@ -743,10 +747,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/FacadeMessages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Response.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/DatabaseProcessingException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Facade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="64" lean-forward="true" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3617#3618#0" expanded="true" />
+            <element signature="e#3659#3660#0" expanded="true" />
+            <element signature="e#3918#3919#0" expanded="true" />
+            <element signature="e#3958#3959#0" expanded="true" />
+            <element signature="e#4537#4538#0" expanded="true" />
+            <element signature="e#4603#4604#0" expanded="true" />
+            <element signature="e#4681#4682#0" expanded="true" />
+            <element signature="e#4740#4741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/ResponseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/dao/CompanyDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="270">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -755,8 +829,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/dao/EmployeeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -765,8 +839,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+        <state relative-caret-position="150">
+          <caret line="10" column="91" lean-forward="true" selection-start-line="10" selection-start-column="91" selection-end-line="10" selection-end-column="91" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#836#837#0" expanded="true" />
@@ -803,78 +877,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/hibernate/manytomany/dao/CompanyDaoTestSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/ResponseDTO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/FacadeMessages.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Response.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/DatabaseProcessingException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kodilla/hibernate/manytomany/facade/Facade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3617#3618#0" expanded="true" />
-            <element signature="e#3659#3660#0" expanded="true" />
-            <element signature="e#3918#3919#0" expanded="true" />
-            <element signature="e#3958#3959#0" expanded="true" />
-            <element signature="e#4502#4503#0" expanded="true" />
-            <element signature="e#4543#4544#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/kodilla/hibernate/manytomany/facade/FacadeTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="14" lean-forward="true" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+        <state relative-caret-position="224">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

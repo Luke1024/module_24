@@ -8,7 +8,7 @@ import java.util.Objects;
 
 @NamedNativeQuery(
         name = "Company.findCompanyByName",
-        query = "SELECT * FROM companies WHERE company_name LIKE :COMPANY_NAME",
+        query = "SELECT * FROM companies WHERE company_name LIKE CONCAT('%', :COMPANY_NAME, '%')",
         resultClass = Company.class
 )
 

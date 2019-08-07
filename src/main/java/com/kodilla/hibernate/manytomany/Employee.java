@@ -8,7 +8,7 @@ import java.util.Objects;
 
 @NamedNativeQuery(
         name = "Employee.findEmployeesByLastname",
-        query = "SELECT * FROM employees WHERE lastname LIKE :LASTNAME",
+        query = "SELECT * FROM employees WHERE lastname LIKE CONCAT ('%', :LASTNAME, '%')",
         resultClass = Employee.class
 )
 
