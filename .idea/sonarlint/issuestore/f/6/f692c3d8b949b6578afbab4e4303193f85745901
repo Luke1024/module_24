@@ -1,0 +1,17 @@
+
+tsquid:S3008"]Rename this field "EMPLOYEE_NOT_FOUND" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°Ï∑‹
+wsquid:S3008"`Rename this field "EMPLOYEE_SAVING_ERROR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†Ø†∞
+vsquid:S3008"_Rename this field "INCORRECT_ENTRY_TYPE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ùÑ˙
+Rsquid:S1444";Make this "public static EMPLOYEE_SAVING_ERROR" field final(†Ø†∞
+Qsquid:S1444":Make this "public static INCORRECT_ENTRY_TYPE" field final(«ùÑ˙
+Osquid:S1444"8Make this "public static EMPLOYEE_NOT_FOUND" field final(°Ï∑‹
+å"squid:ClassVariableVisibilityCheck"^Make INCORRECT_OPERATOR a static final constant or non-public and provide accessors if needed.(¿ªÕÏ
+Esquid:S1165".Make this "EMPLOYEE_SAVING_ERROR" field final.(†Ø†∞
+tsquid:S3008"]Rename this field "INCORRECT_OPERATOR" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ªÕÏ
+Osquid:S1444"8Make this "public static INCORRECT_OPERATOR" field final(¿ªÕÏ
+Dsquid:S1165"-Make this "INCORRECT_ENTRY_TYPE" field final.(«ùÑ˙
+Bsquid:S1165"+Make this "INCORRECT_OPERATOR" field final.(¿ªÕÏ
+å"squid:ClassVariableVisibilityCheck"^Make EMPLOYEE_NOT_FOUND a static final constant or non-public and provide accessors if needed.(°Ï∑‹
+é"squid:ClassVariableVisibilityCheck"`Make INCORRECT_ENTRY_TYPE a static final constant or non-public and provide accessors if needed.(«ùÑ˙
+è"squid:ClassVariableVisibilityCheck"aMake EMPLOYEE_SAVING_ERROR a static final constant or non-public and provide accessors if needed.(†Ø†∞
+Bsquid:S1165"+Make this "EMPLOYEE_NOT_FOUND" field final.(°Ï∑‹
